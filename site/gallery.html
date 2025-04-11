@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>My Site</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Main Header - Наш сайт</h1>
+        <h2>Sub Header - Тема сайту</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="info.html">Про нас</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+    </nav>
+	
+	<img src="images/1.jpg" class="img">
+    <img src="images/1.jpg" class="img right">
+	<img src="images/1.jpg" class="img right">
+    <main>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus vehicula urna.</p>
+        <p>Proin bibendum, mauris at facilisis lacinia, nisi turpis dictum sapien, a pharetra sapien libero at dolor.</p>
+        <p>Suspendisse potenti. Donec ut dui ac augue vehicula tristique ut in neque.</p>
+        <p>Curabitur a erat sit amet nunc sagittis convallis in ut eros.</p>
+        <p>Aliquam erat volutpat. Nam vehicula, elit eget egestas laoreet, purus nisl vehicula libero.</p>
+    </main>
+    
+    <footer>
+        <p>Copyright 2024</p>
+    </footer>
+</body>
+ <div class="multimedia">
+        <div class="multimedia-video">
+            <video controls>
+                <source src="video/video1.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </div>
+        <div class="multimedia-video">
+            <video controls>
+                <source src="video/video2.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </div>
+        <div class="multimedia-video">
+            <video controls>
+                <source src="video/video3.mp4" type="video/mp4">
+                Ваш браузер не підтримує відео.
+            </video>
+        </div>
+    </div>
+</html>
+.inline-img img {
+    width: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    transform: scale(0.95);
+    transition: .3s;
+    max-width: 35%;
+}
+
+.inline-img img:hover {
+    transform: scale(1);
+}
+  
